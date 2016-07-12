@@ -447,7 +447,7 @@ header .nav-bar.wt-bg ul li a {
 .agencies-logo .agencies-logo-item {
   display: inline-block;
   text-align: center;
-  width: 187px;
+  width: 186px;
 }
 .full-footer-bar {
   background: #25262a none repeat scroll 0 0;
@@ -491,6 +491,7 @@ header .nav-bar.wt-bg ul li a {
 .full-footer-bar .footer-list li a {
   color: #b0b0b0;
   display: inline-block;
+  font-size: 13px;
   padding: 3px 0;
   width: 100%;
 }
