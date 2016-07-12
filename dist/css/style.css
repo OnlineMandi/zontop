@@ -6,7 +6,10 @@ header .nav-bar .right-links a,
 .spatialism-sec li a i,
 .viewmore,
 .joblist-item .btn-link,
-.cnd-box .cnd-item .imgbox span {
+.cnd-box .cnd-item .imgbox span,
+.full-footer-bar .footer-info a,
+.full-footer-bar .footer-list li a,
+.footer-bar .social a {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -437,4 +440,82 @@ header .nav-bar.wt-bg ul li a {
 }
 .people-say .people-say-item span {
   color: #dfdfdf;
+}
+.agencies-logo {
+  margin-bottom: 30px;
+}
+.agencies-logo .agencies-logo-item {
+  display: inline-block;
+  text-align: center;
+  width: 187px;
+}
+.full-footer-bar {
+  background: #25262a none repeat scroll 0 0;
+  color: #fff;
+  padding: 50px 0;
+}
+.full-footer-bar h3 {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+}
+.full-footer-bar .footer-info {
+  margin-bottom: 12px;
+}
+.full-footer-bar .footer-info h3 {
+  font-size: 32px;
+  margin: 0 0 11px;
+  text-transform: capitalize;
+}
+.full-footer-bar .footer-info p {
+  color: #b9b9b9;
+  line-height: 1.5;
+}
+.full-footer-bar .footer-info a {
+  background: #008fdc none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+}
+.full-footer-bar .footer-info a:hover {
+  background: #007ecb none repeat scroll 0 0;
+}
+.full-footer-bar .footer-list {
+  padding: 8px 0;
+}
+.full-footer-bar .footer-list li {
+  padding-bottom: 3px;
+}
+.full-footer-bar .footer-list li a {
+  color: #b0b0b0;
+  display: inline-block;
+  padding: 3px 0;
+  width: 100%;
+}
+.full-footer-bar .footer-list li a i {
+  margin-right: 8px;
+}
+.full-footer-bar .footer-list li a:hover {
+  color: #fff;
+}
+.footer-bar {
+  background: #1e1f21 none repeat scroll 0 0;
+  padding: 30px 0;
+}
+.footer-bar p {
+  color: #8f8f8f;
+  margin: 0;
+}
+.footer-bar .social {
+  text-align: right;
+}
+.footer-bar .social a {
+  color: #9f9f9f;
+  display: inline-block;
+  padding: 0 7px;
+}
+.footer-bar .social a:hover {
+  color: #fff;
 }
