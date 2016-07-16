@@ -97,6 +97,9 @@ header{
         padding: 4px 15px;
         text-transform: uppercase;
         &:extend(.transition);
+        i{
+          margin-right: 5px;
+        }
         &:hover{
           background: #0087D4 none repeat scroll 0 0;
         }
@@ -315,12 +318,19 @@ header{
     top: 0;
     width: 50%;
     background-size:cover;
+    &:before{
+      background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+      content: "";
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
     img{
       display: none;
     }
   }
   .jobs-stats{
-    padding: 34px 0;
+    padding: 15px 0;
     .jobs-stats-update{
       color: #fff;
       padding: 25px 0;
@@ -335,22 +345,31 @@ header{
       }
     }
     .jobs-stats-info{
+      display: table;
+      margin: 0 auto;
+      max-width: 390px;
       padding: 0 15px;
       li{
-        padding: 6px 0;
+        border: 1px solid;
+        color: #fff;
+        float: left;
+        margin: 2%;
+        padding: 18px 10px;
+        text-align: center;
+        width: 46%;
         span{
-          border: 1px solid;
-          color: #fff;
           display: inline-block;
-          font-weight: 700;
-          padding: 9px 7px;
+          font-size: 40px;
+          font-weight: 200;
+          margin-bottom: 8px;
+          width: 100%;
         }
         b{
-          background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
-          color: #000;
           display: inline-block;
-          padding: 10px 17px;
-          width: 160px;
+          font-size: 16px;
+          font-weight: 400;
+          text-transform: uppercase;
+          width: 100%;
         }
       }
     }
@@ -392,11 +411,7 @@ header{
     &:hover{
       .index-blog-img {
         &:before {
-          background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
-          content: "";
-          height: 100%;
-          position: absolute;
-          width: 100%;
+          background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
         }
         a{
           top: 50%;
